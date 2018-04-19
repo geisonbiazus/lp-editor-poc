@@ -1,0 +1,23 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jest && npm run cucumber",
+    "jest": "jest",
+    "cucumber": "cucumber-js --require-module babel-register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "cucumber": "^4.2.1",
+    "jest": "^22.4.3",
+    "jest-matchers": "^20.0.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.3"
+  }
+}
